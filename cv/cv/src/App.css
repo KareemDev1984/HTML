@@ -1,17 +1,4 @@
-.wrapper{
-  display: flex;
-  width: 800px;
-}
-.personalia{
-width: 200px;
-display: inline-block;
-}
 
-.personalias{
-width: 500px;
-display: inline-block;
-
-}
 
 .App {
   text-align: center;
