@@ -13,7 +13,14 @@ body {
       monospace;
   }
   
+  .hoofding{
+   max-width: 800px;
+text-align: center;
+
+  }
+
   .wrapper{
+    min-width: 800px;
     display: flex;
     
   }
