@@ -1,9 +1,9 @@
 {
-  "name": "cv",
+  "name": "dom-examples",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "cv": "https://github.com/KareemDev1984/CV.git",
+    "crel": "^3.1.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"

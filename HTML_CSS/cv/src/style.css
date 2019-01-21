@@ -20,17 +20,17 @@ text-align: center;
   }
 
   .wrapper{
-    min-width: 800px;
+    /* min-width: 800px; */
     display: flex;
     
   }
-  .personalia{
+  .sides{
   width: 200px;
   display: inline-block;
   }
   
-  .personalias{
-  width: 500px;
+  .center{
+  width: 450px;
   display: inline-block;
   
   }
