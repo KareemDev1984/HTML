@@ -1,36 +1,79 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-      monospace;
-  }
-  
-  .hoofding{
-   max-width: 800px;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.hoofding{
+ width: 100%;
 text-align: center;
 
+}
+
+.wrapper{
+  /* min-width: 800px; */
+  display: flex;
+  
+}
+.leftsides{
+width: 200px;
+display: inline-block;
+font-weight: bold;
+}
+.rightsides{
+  width: 150px;
+  display: inline-block;
+  font-weight: bold;
   }
 
-  .wrapper{
-    /* min-width: 800px; */
-    display: flex;
-    
-  }
-  .sides{
-  width: 200px;
+.center{
+width: 550px;
+display: inline-block;
+}
+.jobtitel{
+  font-weight: bold;
+}
+
+.uberdiv {
+
+  max-width: 800px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 50px;
+}
+.leftcompetence{
+  width: 100px;
   display: inline-block;
-  }
-  
-  .center{
-  width: 450px;
+}
+.stars{
+  width: 130px;
   display: inline-block;
   
-  }
+}
+.centercompetence{
+  width: 100px;
+  display: inline-block;
+}
+.list{
+
+  list-style-type: none;
+}
+.rightcompetence{
+  width: 150px;
+  display: inline-block;
+}
+
+@media(max-width:800px){
+
+
+}
